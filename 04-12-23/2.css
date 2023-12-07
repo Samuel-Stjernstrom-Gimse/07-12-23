@@ -1,0 +1,19 @@
+
+.victory-1 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.btn1 {
+    display: block;
+    background: #dfa2a2;
+    padding: 50px 10px;
+    text-align: center;
+    border: 5px solid blue;
+    border-radius: 30px;
+
+
+}

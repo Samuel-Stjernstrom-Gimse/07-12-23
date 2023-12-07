@@ -1,0 +1,48 @@
+@keyframes ex {
+    0% {margin-top: 20px;}
+    20% {margin-left: 1000px;}
+    40% {margin-bottom: 700px;}
+    50% {margin-top: 800px;}
+    75% {margin-right: 900px;}
+    100% {margin-top: 100px;}
+}
+
+.all {
+    margin: 20px;
+}
+.all {
+    animation-name: ex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.card {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 20px solid rgba(0, 21, 128, 0.24);
+    background: #6bffff;
+    box-shadow: rgb(128, 128, 128) 15px 10px;
+    border-radius: 50px;
+}
+
+
+.text {
+    text-align: center;
+    font-family: Verdana, serif;
+}
+
+
+
+

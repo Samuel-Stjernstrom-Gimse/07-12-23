@@ -1,0 +1,67 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  background-color: rgb(147, 147, 147);
+  margin-bottom: 40px;
+  margin-left: 0;
+  margin-top: 0;
+  border: 0;
+}
+
+.btn {
+  background-color: rgb(166, 165, 165);
+  padding: 10px 15px 15px 15px;
+  border-radius: 30px;
+  border-color: red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(134, 134, 134);
+  height: 250px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid rgb(255, 252, 252);
+  border-radius: 20px;
+  width: 450px;
+}
+
+.avatar {
+  border-radius: 4%;
+  border: solid red;
+  margin: 20px;
+  object-fit: cover;
+  height: 160px;
+  width: 160px;
+}
+
+.all-0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.all-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.all-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+body {
+  background-color: rgb(63, 64, 64);
+}

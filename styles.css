@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    color: #fbc900;
+}
+body {
+    background-color: #180427;
+}
+
+.btn01 {
+    padding: 40px 80px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: Verdana;
+    font-size: inherit;
+    background-color: #840404;
+    color: #ff9414;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: #09010e 10px 10px;
+    border: solid #2f0000;
+}
+
+.btn01:hover {
+    background-color: #c81010;
+
+}
+
+.btn01:active {
+    background-color: #540404;
+
+}
+
+.btn-all {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-sect {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lama-images{
+    object-fit: cover;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 20px;
+    border: solid #830404 5px;
+    margin-bottom: 200px;
+
+}
